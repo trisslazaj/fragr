@@ -21,6 +21,7 @@ FetchContent_MakeAvailable(glfw)
 add_executable(fragr
   src/main.cpp
   src/gl_context.cpp
+  src/shader.cpp
 )
 
 target_compile_options(fragr PRIVATE -Wall -Wextra)
